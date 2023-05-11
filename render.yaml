@@ -35,4 +35,3 @@ services:
       - key: MINIMUM_FILE_SIZE
         # value: MINIMUM_FILE_SIZE
         sync: false
-        
