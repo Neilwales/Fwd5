@@ -1,0 +1,37 @@
+services:
+  # A Docker web service
+  - type: web
+    name: neil
+    env: docker
+    region: Singapore
+    plan: free
+    envVars:
+      - key: BLOCK_FILES_WITHOUT_EXTENSIONS
+        # value: BLOCK_FILES_WITHOUT_EXTENSIONS
+        sync: false
+      - key: API_ID
+        # value: API_ID
+        sync: false
+      - key: FORWARD_AS_COPY
+        # value: FORWARD_AS_COPY
+        sync: false
+      - key: FORWARD_TO_CHAT_ID
+        # value: FORWARD_TO_CHAT_ID
+        sync: false
+      - key: API_HASH
+        # value: API_HASH
+        sync: false
+      - key: FORWARD_FROM_CHAT_ID
+        # value: FORWARD_FROM_CHAT_ID
+        sync: false
+      - key: STRING_SESSION
+        # value: STRING_SESSION
+        sync: false
+      - key: FORWARD_FILTERS
+        # value: FORWARD_FILTERS
+        sync: false
+      - key: BLOCKED_EXTENSIONS
+        # value: BLOCKED_EXTENSIONS
+      - key: MINIMUM_FILE_SIZE
+        # value: MINIMUM_FILE_SIZE
+        sync: false
