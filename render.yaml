@@ -6,27 +6,30 @@ services:
     region: Singapore
     plan: free
     envVars:
-      - key: BOT_TOKEN
-        # value: BOT_TOKEN
+      - key: BLOCKED_EXTENSIONS
+        # value: BLOCKED_EXTENSIONS
         sync: false
       - key: API_ID
         # value: API_ID
         sync: false
-      - key: SUDO_USERS
-        # value: SUDO_USERS
+      - key: MINIMUM_FILE_SIZE
+        # value: MINIMUM_FILE_SIZE
         sync: false
-      - key: FROM_CHATS
-        # value: FROM_CHATS
+      - key: FORWARD_FROM_CHAT_ID
+        # value: FORWARD_FROM_CHAT_ID
         sync: false
       - key: API_HASH
         # value: API_HASH
         sync: false
-      - key: TO_CHATS
-        # value: TO_CHATS
+      - key: FORWARD_TO_CHAT_ID
+        # value: FORWARD_TO_CHAT_ID
         sync: false
-      - key: TELEGRAM_SESSION
-        # value: TELEGRAM_SESSION
+      - key: STRING_SESSION
+        # value: STRING_SESSION
         sync: false
-      - key: ADVANCE_CONFIG
-        # value: ADVANCE_CONFIG
+      - key: FORWARD_AS_COPY
+        # value: FORWARD_AS_COPY
+        sync: false
+      - key: BLOCK_FILES_WITHOUT_EXTENSIONS
+        # value: BLOCK_FILES_WITHOUT_EXTENSIONS
         sync: false
